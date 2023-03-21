@@ -15,8 +15,6 @@ near_number = 0
 for i in range(len(array)):
     if x-array[i] < x-near_number and x-array[i] > 0:
         near_number = i
-    elif x-array[i] > x-near_number:
-        near_number = i
 print(array[near_number])
     
     
